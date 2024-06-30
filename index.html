@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Coding Portfolio</title>
+
+    <!-- Bulma CSS framework (https://bulma.io) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+
+    <script src="code/1-driving-age.js"></script>
+    <script src="code/2-conversation.js"></script>
+    <script src="code/3-more-than-two.js"></script>
+    <script src="code/4-capital.js"></script>
+    <script src="code/5-sale-calculator.js"></script>
+  </head>
+
+  <body>
+    <header class="hero is-info">
+      <div class="hero-body">
+        <h1 class="title">Selection</h1>
+        <h2 class="subtitle">Code that doesn't always do the same thing.</h2>
+      </div>
+    </header>
+
+    <main class="section">
+      <h2 class="subtitle">Selection</h2>
+
+      <div class="columns">
+        <div class="column">
+          <button class="button is-light is-danger" onclick="drivingAge()">Driving Age</button>
+        </div>
+
+        <div class="column">
+          <button class="button is-light is-danger" onclick="conversation()">Conversation</button>
+          <button class="button is-light is-danger" onclick="age()">Age</button>
+        </div>
+
+        <div class="column">
+          <button class="button is-light is-danger" onclick="moreThanTwo()">More Than Two</button>
+        </div>
+
+        <div class="column">
+          <button class="button is-light is-danger" onclick="capital()">Capital</button>
+        </div>
+
+        <div class="column">
+          <button class="button is-light is-danger" onclick="saleCalculator()">Sale Calculator</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p><strong>Coding Portfolio</strong> template by <a href="https://github.com/MrHullen">Mr Hullen</a></p>
+        <p>&copy; <a href="https://craighead.school.nz">Craighead Diocesan School</a></p>
+      </div>
+    </footer>
+  </body>
+
+  <style>
+    .column .button {
+      display: block;
+      margin-top: 0.5em;
+    }
+  </style>
+</html>
