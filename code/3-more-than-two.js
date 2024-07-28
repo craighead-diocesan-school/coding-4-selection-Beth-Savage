@@ -16,6 +16,8 @@ function moreThanTwo() {
       alert(number + ' is the same as 2.')
     } else if (number == 'stop') {
       alert('Fine you win')
+    } else{
+      alert("That's not a number try again")
     }
   }
 }
